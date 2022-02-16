@@ -52,15 +52,17 @@ Repository의 Settings -> Secrets -> Actions 진입
 #### step4-1. PlayStore Service 계정 정보 만들기
 1. 구글 플레이 콘솔 로그인
 2. 설정 -> API 액세스 진입
-   <img src="https://user-images.githubusercontent.com/48344355/154064097-cdb5ccee-3973-4353-ae8b-fd56321c221e.png" width=80%>
+
+   <img src="https://user-images.githubusercontent.com/48344355/154064097-cdb5ccee-3973-4353-ae8b-fd56321c221e.png" width=30%>
 3. `새 서비스 계정 만들기` 클릭
    <img src="https://user-images.githubusercontent.com/48344355/154064610-16471b66-4b32-4a88-a9eb-bd1a0e9d93f9.png">
 4. 아래와 같은 절차 진행
-   <img src="https://user-images.githubusercontent.com/48344355/154064997-eac34d96-727d-4865-bef1-c9e6c500b190.png">
+
+   <img src="https://user-images.githubusercontent.com/48344355/154064997-eac34d96-727d-4865-bef1-c9e6c500b190.png" width=30%">
 5. Google Cloud Platform(GCP)에서 서비스 계정 만들기
 6. 생성된 계정을 클릭하여 `새 키 만들기` 클릭 (json으로 만들기)
 
-   <img src="https://user-images.githubusercontent.com/48344355/154065587-9aa692e9-7b6c-4ea4-bea0-04474a675cf9.png" width=50%><img src="https://user-images.githubusercontent.com/48344355/154065645-a0abb734-5faa-4ecd-921f-77ce314adbae.png" width=50%>
+   <img src="https://user-images.githubusercontent.com/48344355/154065587-9aa692e9-7b6c-4ea4-bea0-04474a675cf9.png" width=30%><img src="https://user-images.githubusercontent.com/48344355/154065645-a0abb734-5faa-4ecd-921f-77ce314adbae.png" width=30%>
 7. 다운로드된 json 파일을 step4의 SERVICES_ACCOUNT_JSON으로 등록
 
 ### step5. google-services.json 생성 (생략 가능)
