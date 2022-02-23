@@ -58,7 +58,7 @@ Repository의 Settings -> Secrets -> Actions 진입
    <img src="https://user-images.githubusercontent.com/48344355/154064610-16471b66-4b32-4a88-a9eb-bd1a0e9d93f9.png">
 4. 아래와 같은 절차 진행
 
-   <img src="https://user-images.githubusercontent.com/48344355/154064997-eac34d96-727d-4865-bef1-c9e6c500b190.png" width=30%">
+   <img src="https://user-images.githubusercontent.com/48344355/154064997-eac34d96-727d-4865-bef1-c9e6c500b190.png" width=30%>
 5. Google Cloud Platform(GCP)에서 서비스 계정 만들기
 6. 생성된 계정을 클릭하여 `새 키 만들기` 클릭 (json으로 만들기)
 
@@ -123,7 +123,7 @@ ref. https://github.com/r0adkll/upload-google-play
 #### step10-1. whatsnew 폴더에 출시 노트 작성
 언어별로 작성이 가능하며, 작성해두면 비공개 테스트에 등록될 때 작성된 내용으로 출시 노트에 추가됨
 
-<img src="https://user-images.githubusercontent.com/48344355/154069039-44009029-3ab1-4e11-9669-8697359fc301.png" width="30%">
+<img src="https://user-images.githubusercontent.com/48344355/154069039-44009029-3ab1-4e11-9669-8697359fc301.png" width=30%>
 
 
 ## 참고
