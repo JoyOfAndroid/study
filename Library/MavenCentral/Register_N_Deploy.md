@@ -187,4 +187,4 @@ dependencies {
 }
 ```
 ## 참고
-[BeokLibrary](https://github.com/BeokBeok/BeokLibrary)
+[적용한 Repository](https://github.com/BeokBeok/BeokLibrary)
