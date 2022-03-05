@@ -120,6 +120,9 @@ private tailrec suspend fun autoScrollImageList() {
     delay(DELAY_BETWEEN_SCROLL_MS)
     autoScrollImageList()
 }
+
+const val DELAY_BETWEEN_SCROLL_MS = 2000L
+const val THRESHOLD = 3
 ```
 
 - 첫번째 파트는 list의 화면에 보이는 아이템 부터 list의 끝까지이므로 스크롤하여 앞으로 보여줄 아이템들 입니다.
