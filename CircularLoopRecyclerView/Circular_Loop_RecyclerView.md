@@ -53,7 +53,7 @@ private fun stopAutoScroll() {
 
 계속해서 다음 아이템이 채워지는 방식으로 진행한다.
 
-![https://miro.medium.com/max/461/1*c5bLmSxVH368Rsr1BeL_MA.gif](https://miro.medium.com/max/461/1*c5bLmSxVH368Rsr1BeL_MA.gif)
+![SequenciallyLoopList](https://user-images.githubusercontent.com/10140528/156889643-39877f93-d097-4e71-9a37-127093497047.png)
 
 ## RecyclerView + ListAdapter
 
