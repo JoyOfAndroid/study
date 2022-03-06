@@ -94,10 +94,8 @@ lifecycleScope.launch { autoScrollImageList() }
 - 코루틴이 다음으로 시작되며 auto scroll이 동작한다.
 - 이번에는 재귀함수를 통해 무한스크롤을 만든다.
 
-> *RecyclerView는 하나의 아이템씩 이동하며 끝에 도달하기전에 화면에 중앙에 보이는 아이템을 제외하고 양끝에 보이는 아이템과 화면 밖에 있는 아이템갯수 만큼 threshold를 지정합니다.
-
-threshold + 화면에 보이는 아이템의 position이 list 맨끝에 도달할 경우 스크롤 되었던 부분을 list 뒤에 붙입니다.*
-> 
+> RecyclerView는 하나의 아이템씩 이동하며 끝에 도달하기전에 화면에 중앙에 보이는 아이템을 제외하고 양끝에 보이는 아이템과 화면 밖에 있는 아이템갯수 만큼 threshold를 지정합니다.
+> threshold + 화면에 보이는 아이템의 position이 list 맨끝에 도달할 경우 스크롤 되었던 부분을 list 뒤에 붙입니다.
 
 ```kotlin
 private tailrec suspend fun autoScrollImageList() {
