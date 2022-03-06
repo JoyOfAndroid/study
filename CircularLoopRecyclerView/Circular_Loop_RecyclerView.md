@@ -107,7 +107,6 @@ private tailrec suspend fun autoScrollImageList() {
     if (firstPosition + THRESHOLD < size) {
         binding.rvImages2.smoothScrollToPosition(getNextPosition(size, layoutManager))
     } else {
-
         if (firstPosition != RecyclerView.NO_POSITION) {
             val currentList = adapter.currentList
             val secondPart = currentList.subList(0, firstPosition)
