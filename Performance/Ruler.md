@@ -57,4 +57,6 @@
   ![스크린샷 2022-03-07 오후 11 04 15](https://user-images.githubusercontent.com/48344355/157049007-2f9727ce-3bec-440b-9aa0-4e86aeb0f2c4.png)
 - Ownership 탭
   ![스크린샷 2022-03-07 오후 11 05 11](https://user-images.githubusercontent.com/48344355/157049176-e2789f2c-ecb0-4a6a-84f6-9b3c57391abe.png)
-  - Components grouped by owner를 선택하여 각 모듈별 컴포넌트 리스트 및 용량 정보를 볼 수 있음 
+  - Components grouped by owner를 선택하여 각 모듈별 컴포넌트 리스트 및 용량 정보를 볼 수 있음
+## 결론
+- 큰 규모의 다이나믹 피쳐 기반 멀티 모듈 프로젝트에서는 의미가 있어보임
