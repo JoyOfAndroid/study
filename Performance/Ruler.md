@@ -1,7 +1,7 @@
 # Ruler 적용하기
 ## Ruler란
 - 안드로이드 앱 사이즈를 측정해주는 도구 
-- (구글 플레이 콘솔에도 앱 크기 정보를 알려주는데 Ruler는 뭐가 좋을까? :thinking:)
+- (구글 플레이 콘솔에도 앱 크기 정보를 알려주는데 Ruler는 뭐가 좋은걸까? :thinking:)
 ## Ruler 설정하기
 1. 플러그인 추가
    - [spotify/ruler](https://github.com/spotify/ruler) Adding the plugin 참고
@@ -14,10 +14,10 @@
         sdkVersion.set(31)
     }    
     ```
-   - [abi](https://developer.android.com/ndk/guides/abis) -- armeabi-v7a, arm64-v8a, x86, x86-64
-   - locale -- en, ko, jp 등
-   - [screenDensity](https://developer.android.com/training/multiscreen/screendensities) -- 320, 480, 640 등
-   - sdkVersion -- sdk 버전
+   - [abi](https://developer.android.com/ndk/guides/abis) : armeabi-v7a, arm64-v8a, x86, x86-64
+   - locale : en, ko, jp 등
+   - [screenDensity](https://developer.android.com/training/multiscreen/screendensities) : 320, 480, 640 등
+   - sdkVersion : sdk 버전
 3. Ownership 설정 (선택)
    - ownership.yaml 생성
        ```yaml
