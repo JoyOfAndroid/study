@@ -109,6 +109,7 @@ circle은 cornerSize를 50% 정도 넣어준다.
 ### Rounded Image
 
 ```kotlin
+// styles/rounded_corner.xml
 <style name="rounded_corner">
     <item name="cornerSize">10dp</item>
 </style>
