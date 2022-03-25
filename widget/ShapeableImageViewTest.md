@@ -62,6 +62,7 @@ implementation 'com.google.android.material:material:1.2.0'
 ### Circle Image
 
 ```kotlin
+// styles/circle.xml
 <style name="Circle">
     <item name="cornerSize">50%</item>
 </style>
