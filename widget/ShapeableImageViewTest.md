@@ -213,9 +213,7 @@ static CornerTreatment createDefaultCornerTreatment() {
 
 ShapeAppearancePathProvider에서는 corner를 rounding 처리할 각 정보들을 셋팅하는 작업을 한다.
 
-여기에는 ShapePath에 각종 필요한 값들을 셋팅하는데 topright, bottom right, bottom left, top left의 
-
-PathOperation 클래스가 있다. 
+여기에는 ShapePath에 각종 필요한 값들을 셋팅하는데 top right, bottom right, bottom left, top left의 PathOperation 클래스가 있다. 
 
 ```java
 private void setCornerPathAndTransform(@NonNull ShapeAppearancePathSpec spec, int index) {
