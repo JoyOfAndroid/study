@@ -184,10 +184,8 @@ binding.ivTopRounded.shapeAppearanceModel = binding.ivTopRounded.shapeAppearance
 - circle shape를 그릴때는 dp값이 아닌 % 값으로 지정해야된다. (50%)
 
 ```java
+// RelativeCornerSize.java
 @Override
-public float getCornerSize(@NonNull RectF bounds) {
-  return percent * bounds.height();
-}
 ```
 
 - CornerTreatment는 RoundedCornerTreatment로 적용된다.
