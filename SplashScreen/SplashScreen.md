@@ -44,7 +44,7 @@
 implementation 'androidx.core:core-splashscreen:1.0.0-beta02'
 ```
 
-```
+```xml
 <style name="Splash.Theme" parent="Theme.SplashScreen">
 	<item name="windowSplashScreenBackground">@color/white</item>
 	<item name="windowSplashScreenAnimatedIcon">@drawable/ic_app_icon</item>
