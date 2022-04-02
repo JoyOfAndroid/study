@@ -40,7 +40,7 @@
 
 
 ###  Splash Screen API 추가 방법
-```
+```groovy
 implementation 'androidx.core:core-splashscreen:1.0.0-beta02'
 ```
 
