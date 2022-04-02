@@ -3,7 +3,7 @@
 - 시스템 언어를 변경하지 않고도, 앱 내부에서 언어를 변경하는 기능
 - 앱 종료 후 재시작 시, 마지막으로 설정된 언어로 보임
 - 앱에만 영향
-## 전제조건
+## 전제 조건
 - Android13(Tiramisu)에서만 가능
 - 하위호환성 제공하지 않음
 ## 파해치기
@@ -21,3 +21,11 @@
 - 앱단에 적용할 Locale 등록
 - Locale 등록 시 앱 재시작
 - 여러 Locale 등록 가능하며, 이 때에는 첫 번째 요소의 Locale 적용됨
+## 결론
+- 하위 호환이 되었으면 좋았을 듯
+- 안드로이드13부터 적용되는 기술이라, 적용하기는 어려울듯
+## 참고 URL
+- https://developer.android.com/about/versions/13/features/app-languages
+- https://proandroiddev.com/exploring-the-new-android-13-per-app-language-preferences-8d99b971b578
+## 적용 Repo
+- https://github.com/BeokBeok/per-app-launguage-preferences
