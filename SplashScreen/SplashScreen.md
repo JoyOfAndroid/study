@@ -90,7 +90,7 @@ super.onCreate()
 ### 기존 Splash화면 마이그레이션 
 - 기존 라우팅용으로사용되던 경우, 
 	- SplashScreen 사용하여, 렌더링 
-```
+```kotlin
 	   override fun onCreate(savedInstanceState: Bundle?) {
         val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
