@@ -75,7 +75,7 @@ implementation 'androidx.core:core-splashscreen:1.0.0-beta02'
 
 - 스플래시 화면 지정 
 	- OnCreate 에서 super.onCreate() 이전에
-```
+```kotlin
 val splashScreen = installSplashScreen()
 super.onCreate()
 ```
