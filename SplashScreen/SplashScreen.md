@@ -7,7 +7,7 @@
 
 -  Cold Start, Warm Start - o   Hot Start - x
 	- 시스템이 정의된 테마와 애니메이션으로 SplashScreen 표시
-	- 앱이 준비되면, SplashScreen 닫히고, 햅 실행
+	- 앱이 준비되면, SplashScreen 닫히고, 앱 실행
 ![](SplashScreen/50E7AC56-6E11-43FC-98AE-5FF8A745D756.png)
 	  
 
