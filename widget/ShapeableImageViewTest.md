@@ -186,6 +186,9 @@ binding.ivTopRounded.shapeAppearanceModel = binding.ivTopRounded.shapeAppearance
 ```java
 // RelativeCornerSize.java
 @Override
+public float getCornerSize(@NonNull RectF bounds) {
+  return percent * bounds.height();
+}
 ```
 
 - CornerTreatment는 RoundedCornerTreatment로 적용된다.
