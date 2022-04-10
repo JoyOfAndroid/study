@@ -5,7 +5,7 @@
 [제안서](https://github.com/Kotlin/KEEP/blob/master/proposals/context-receivers.md)에 설명된 내용을 토대로 작성하였으나, 오역 및 축약된 부분이 있을 수 있기 때문에 더 자세한 내용이 궁금하시면 
 원문을 같이 확인해주세요.:)
 
-ㅔ갸ㅜㅅ## 사용하기 위한 설정
+## 사용하기 위한 설정
 Android studio 기준으로, 아래의 방법을 통해 설정을 구성할 수 있습니다.
 1. Preferences → Languages & Frameworks → kotlin 탭  
 2. Early Access Preview 1.6.x 업데이트 → 재시작  
@@ -13,8 +13,8 @@ Android studio 기준으로, 아래의 방법을 통해 설정을 구성할 수 
 4. `freeCompilerArgs` 추가
     ```
     kotlinOptions {
-		jvmTarget = '1.8'
-    freeCompilerArgs =["-Xcontext-receivers"]
+        jvmTarget = '1.8'
+        freeCompilerArgs =["-Xcontext-receivers"]
     }
     ```
 
