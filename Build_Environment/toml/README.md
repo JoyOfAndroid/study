@@ -2,6 +2,7 @@
 https://github.com/android/nowinandroid
 
 2022 Google I/O를 보면서 NowInAndroid 프로젝트를 알게 되었다.
+
 코드를 분석하다가 디펜던시 관리를 특이(?)하게 하고 있다는 것을 발견하게 되었다.
 ```kts
 dependencies {    
@@ -32,6 +33,7 @@ ext.libs = [
 ]
 ```
 하지만 아무리 찾아봐도 이런 코드들은 없었고, 한참을 찾아보니 libs.version.toml 이라는 파일에서 관리를 하고 있었다.
+
 평소 buildSrc + kts 조합으로 디펜던시를 관리하고 있고 익숙해진 상태이므로 그냥 넘길까 하다가, 처음 보는 디펜던시 관리 방식이라 한번 알아보게 되었다.
 # 적용해보기
 https://github.com/BeokBeok/RuneWords/pull/73
@@ -78,6 +80,7 @@ compose = [
 implementation(libs.bundles.compose)
 ```
 컴포즈와 같이 여러 디펜던시를 묶어서 써야하는 경우에는, 배열로 정의해서 묶을 수 있다.
+
 다만, implementation과 kapt를 섞어서 쓰고 싶은 경우는 묶어서 사용할 수 없다.
 ## 2. toml 연동하기
 setting.gradle.kts에 적용한다.
