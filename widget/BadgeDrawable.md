@@ -171,6 +171,7 @@
 ```kotlin
 val badge = BadgeDrawable.create(this)
 ```
+- context를 넘겨줘야한다.
 ## 3. 배지 속성 초기화
 ```kotlin
 with(badge) {
