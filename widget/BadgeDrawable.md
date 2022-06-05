@@ -1,4 +1,4 @@
-# BadgeDrawable 이란
+# BadgeDrawable
 <img src="https://user-images.githubusercontent.com/48344355/172030297-9389e139-ed27-4c07-93d2-acf660500272.png" width=30% />
 
 보통 이 부분을 구현하기 위해서는 두 가지의 방법을 사용한다.
@@ -6,8 +6,6 @@
 - 일반 View인 경우, Constraint Layout을 활용하여 ImageView와 TextView의 조합으로 그린다.
 
 하지만 BadgeDrawable을 사용하면, 간단하게 배지를 그릴 수 있다.
-
-
 # 일반 뷰에 적용해보기
 ## 1. FrameLayout 추가
 ```BadgeDrawable.java
@@ -17,7 +15,7 @@
 - 적용할 뷰를 FrameLayout으로 감싸야한다.
 - anchorViewRef는 배지가 적용될 뷰를 의미하며, customBadgeParentRef는 배지가 적용될 뷰의 FrameLayout을 의미한다.
 
-### FrameLayout을 추가하는 이유
+### 로직 살펴보기
 ```BadgeDrawable.java
   @IntDef({
     TOP_END,
@@ -34,7 +32,7 @@
     }
   }
 ```
-- setBadgeGravity 함수를 통해서 배지를 어디에 위치시킬 지 설정한다.
+- setBadgeGravity 함수를 통해서 배지를 어디에 위치시킬지 설정한다.
 
 ---
 
@@ -184,7 +182,7 @@ with(badge) {
 ```
 - number : 배지에 표시할 숫자
 - backgroundColor : 배지 배경색
-- badgeTextColor : 배짖 텍스트 색상
+- badgeTextColor : 배지 텍스트 색상
 - badgeGravity : 배지 위치
 ## 4. 배지 적용
 ```kotlin
@@ -206,7 +204,8 @@ binding.flMain.addOnLayoutChangeListener { view, _, _, _, _, _, _, _, _ ->
 val badge = binding.bnvMain.getOrCreateBadge(R.id.item_bottom_navigation_three)
 ```
 - BottomNavigationView 자체에서 BadgeDrawable을 지원한다. (getOrCreateBadge)
+- 별도의 FrameLayout을 추가할 필요가 없다.
 ## 2. 배지 속성 초기화 및 적용
-- 일반 뷰와 동일
+- 일반 뷰에서 했던 것과 동일하다.
 ## 결과
 <img src="https://user-images.githubusercontent.com/48344355/172031677-3e0df9da-3f2b-4868-ae3f-d369e4c49c1a.png" width=30% />
