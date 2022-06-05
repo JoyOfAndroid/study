@@ -199,3 +199,14 @@ binding.flMain.addOnLayoutChangeListener { view, _, _, _, _, _, _, _, _ ->
 - onLayoutChangeListener에서 해당 뷰에 배지를 attach한다.
 ## 결과
 <img src="https://user-images.githubusercontent.com/48344355/172031271-341a5941-0e84-4007-87a4-f154921e26aa.png" width=30% />
+
+# BottomNavigationView에 적용해보기
+## 1. 배지 생성
+```kotlin
+val badge = binding.bnvMain.getOrCreateBadge(R.id.item_bottom_navigation_three)
+```
+- BottomNavigationView 자체에서 BadgeDrawable을 지원한다. (getOrCreateBadge)
+## 2. 배지 속성 초기화 및 적용
+- 일반 뷰와 동일
+## 결과
+<img src="https://user-images.githubusercontent.com/48344355/172031677-3e0df9da-3f2b-4868-ae3f-d369e4c49c1a.png" width=30% />
