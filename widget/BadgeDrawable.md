@@ -198,6 +198,4 @@ binding.flMain.addOnLayoutChangeListener { view, _, _, _, _, _, _, _, _ ->
 ```
 - onLayoutChangeListener에서 해당 뷰에 배지를 attach한다.
 ## 결과
-![image](https://user-images.githubusercontent.com/48344355/172031190-409971ea-555d-4e0a-8d4e-1bbeca0a540a.png)
-
-
+<img src="https://user-images.githubusercontent.com/48344355/172031271-341a5941-0e84-4007-87a4-f154921e26aa.png" width=30% />
