@@ -42,16 +42,16 @@ class Paparazzi @JvmOverloads constructor(
 ```kotlin
 @Test
 fun pixel5() {
-    val launch = paparazzi.inflate<LinearLayout>(R.layout.activity_paparazzi)
-    paparazzi.snapshot(launch)
+  val launch = paparazzi.inflate<LinearLayout>(R.layout.activity_paparazzi)
+  paparazzi.snapshot(launch)
 }
 ```
 ```kotlin
 @Test
 fun pixel5() {
-    paparazzi.snapshot {
-        Greeting(name = "Compose")
-    }
+  paparazzi.snapshot {
+      Greeting(name = "Compose")
+  }
 }
 ```
 ### 2-1. 테마를 바꾸고 싶다면
