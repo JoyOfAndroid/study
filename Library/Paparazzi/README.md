@@ -47,12 +47,12 @@ fun pixel5() {
 }
 ```
 ```kotlin
-    @Test
-    fun pixel5() {
-        paparazzi.snapshot {
-            Greeting(name = "Compose")
-        }
+@Test
+fun pixel5() {
+    paparazzi.snapshot {
+        Greeting(name = "Compose")
     }
+}
 ```
 ### 2-1. 테마를 바꾸고 싶다면
 ```kotiln
