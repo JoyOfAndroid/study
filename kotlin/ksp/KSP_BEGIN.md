@@ -47,3 +47,8 @@ dependencies {
 # 적용 Repo
 - https://github.com/BeokBeok/ksp-builder-sample
 
+# 느낀점
+- kotlinpoet를 활용하면, 파일 생성 시 하드 코딩을 줄일 수 있음
+  - https://github.com/square/kotlinpoet
+  - (다음에는 kotlnpoet를 활용해서 만들어봐야지)
+- Breakpoint를 활용한 디버깅은 불가능하고, 생성된 파일을 분석해서 에러를 발견해야 함
